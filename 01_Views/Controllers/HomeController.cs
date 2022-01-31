@@ -12,5 +12,10 @@ namespace _01_Views.Controllers
         {
             return View();
         }
+
+        public IActionResult Index4()
+        {
+            return View("/Nash/Index.cshtml");
+        }
     }
 }
