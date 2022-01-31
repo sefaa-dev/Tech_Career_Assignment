@@ -1,0 +1,18 @@
+﻿<html>
+<head></head>
+<body>
+    @Html.ActionLink("Tıkla", "About")
+
+    <hr />
+
+    @Html.ActionLink("Default Index sayfasına git", "Index", "Default")
+
+    <hr />
+
+    @Html.ActionLink("Google Git", "", "", "http", "www.google.com", "", null, null)
+
+    <hr />
+
+    @Html.ActionLink(linkText:"Hakkımızda",actionName:"About",routeValues: null, htmlAttributes: new { style="color:red;font-size:20px" })
+</body>
+</html>

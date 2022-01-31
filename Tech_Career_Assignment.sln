@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Views", "01_Views\01_Views.csproj", "{0A07E9DB-8150-45A9-A93E-4D806890D8BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_HtmlHelpers", "02_HtmlHelpers\02_HtmlHelpers.csproj", "{135D69A4-B824-4E65-851A-828329B6E344}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0A07E9DB-8150-45A9-A93E-4D806890D8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A07E9DB-8150-45A9-A93E-4D806890D8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A07E9DB-8150-45A9-A93E-4D806890D8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135D69A4-B824-4E65-851A-828329B6E344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135D69A4-B824-4E65-851A-828329B6E344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135D69A4-B824-4E65-851A-828329B6E344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135D69A4-B824-4E65-851A-828329B6E344}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
