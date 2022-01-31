@@ -1,0 +1,30 @@
+﻿<html>
+<head></head>
+<body>
+    @{
+        string name = "John";
+        string surname = "Nash";
+    }
+    <b>@name</b> <i>@surname</i>
+    <hr />
+
+    @{
+        string link = "http://www.google.com";
+    }
+    <a href="@link">Gıgılla</a>
+    <hr />
+
+    @{
+        List<string> cities = new List<string>() { "İstanbul", "Ankara", "İzmir", "Yozgat" };
+    }
+    <ul>
+        @foreach (string item in cities)
+        {
+            <li>@item</li>
+        }
+    </ul>
+    <hr />
+
+
+</body>
+</html>
