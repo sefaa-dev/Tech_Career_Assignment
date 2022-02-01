@@ -15,5 +15,29 @@
     @Html.CheckBox("dil") Java
     @Html.CheckBox("dil") Phyton
 
+    <hr />
+
+    Cinsiyet <br />
+    @Html.RadioButton("sefa", "Kadın") Kadın
+    @Html.RadioButton("sefa", "Erkek") Erkek
+    @Html.RadioButton("sefa", "Belirtmek İstemiyorum") Belirtmek İstemiyorum
+
+    <hr />
+
+    @{
+        List<SelectListItem> cities = new List<SelectListItem>()
+    {
+            new SelectListItem(){Text="İstanbul", Value="34"},
+            new SelectListItem(){Text="İzmir", Value="35"},
+            new SelectListItem(){Text="Ankara", Value="06",Selected=true},
+        };
+    }
+    @Html.DropDownList("sehir", cities, "Bir Şehir Seçin")
+
+    <hr />
+
+
+
+
 </body>
 </html>
