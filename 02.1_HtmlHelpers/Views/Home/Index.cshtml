@@ -1,0 +1,19 @@
+﻿<html>
+<head></head>
+<body>
+
+    Mail: @Html.TextBox("mail", null, htmlAttributes: new { type = "mail" })
+    <br />
+    <br />
+
+    Stok: @Html.TextBox("stok", null, htmlAttributes: new { type = "number" })
+
+    <hr />
+
+    Bildiğiniz programlama dilleri? <br />
+    @Html.CheckBox("dil") C#
+    @Html.CheckBox("dil") Java
+    @Html.CheckBox("dil") Phyton
+
+</body>
+</html>

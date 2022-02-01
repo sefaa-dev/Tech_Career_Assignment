@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Views", "01_Views\01_Vie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_HtmlHelpers", "02_HtmlHelpers\02_HtmlHelpers.csproj", "{135D69A4-B824-4E65-851A-828329B6E344}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_HtmlHelpers1", "02.1_HtmlHelpers\02_HtmlHelpers1.csproj", "{1CB84EC2-7F98-4B8C-B512-B84256186949}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{135D69A4-B824-4E65-851A-828329B6E344}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{135D69A4-B824-4E65-851A-828329B6E344}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{135D69A4-B824-4E65-851A-828329B6E344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB84EC2-7F98-4B8C-B512-B84256186949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB84EC2-7F98-4B8C-B512-B84256186949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB84EC2-7F98-4B8C-B512-B84256186949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB84EC2-7F98-4B8C-B512-B84256186949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
