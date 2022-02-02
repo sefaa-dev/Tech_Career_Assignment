@@ -1,1 +1,23 @@
-﻿
+﻿@using _02_CustomHtmlHelpers2.CustomHelpers
+
+<html>
+<head>
+</head>
+<body>
+    <button>Kaydet</button>
+
+    <hr />
+
+    @Html.Button("Save")
+
+    <hr />
+
+    @Html.Button("Giriş Yap", "purple")
+
+    <hr />
+
+    @* resmin yolunu ,genişliğini,yüksekliğini parametre olarak alıp bir image tagi olışturan html helper yazın*@
+
+    @Html.Image("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Tower_bridge_London_Twilight_-_November_2006.jpg/1200px-Tower_bridge_London_Twilight_-_November_2006.jpg", 500, 300)
+</body>
+</html>
